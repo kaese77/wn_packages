@@ -151,6 +151,8 @@ else
 	profiles="profiles/${TARGET}.profiles"
 fi
 
+info "profiles file used: $profiles"
+
 while read model; do
 	info "Building an image for $model"
 
